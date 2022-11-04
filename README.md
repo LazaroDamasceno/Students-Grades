@@ -1,5 +1,7 @@
 # Students' Grades
 
+![Animação](https://user-images.githubusercontent.com/62726118/199869133-7b69cf43-4c38-4015-b76c-584c0261a0da.gif)
+
 ## Framework
 
 The framework used was Spring of Java 17

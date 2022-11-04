@@ -4,7 +4,7 @@
 
 ## Framework
 
-The framework used was Spring of Java 17
+The framework used was Spring Boot of Java 17
 
 ## Creating a Spring Boot app
 

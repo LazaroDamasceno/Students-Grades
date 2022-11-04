@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+</head>
+<body>
+    <table width="100%" border="solid">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Score</th>
+        </tr>
+        <tr th:each="grade : ${grades}">
+            <td th:text="${grade.name}"></td>
+            <td th:text="${grade.subject}"></td>
+            <td th:text="${grade.score}"></td>
+        </tr>
+    </table>
+</body>
+</html>

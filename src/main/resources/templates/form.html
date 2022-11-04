@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form method="post" th:action="@{/submitData}" th:object="${grades}">
+        <label>Student's name: </label>
+        <input type="text" placeholder="Insert the student's name" th:field="*{name}">
+        <br>
+        <br>
+        <label>Student's name: </label>
+        <input type="text" placeholder="Insert the student's subject" th:field="*{subject}">
+        <br>
+        <br>
+        <label>Student's name: </label>
+        <input type="text" placeholder="Insert the student's score" th:field="*{score}">
+        <br>
+        <br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
